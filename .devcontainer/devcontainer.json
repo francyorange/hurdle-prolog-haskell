@@ -1,0 +1,13 @@
+{
+    "name": "Prolog and Haskell Dev",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "sudo apt update && sudo apt install -y swi-prolog-full ghc ghc-prof ghc-doc",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "jeff-hykin.better-prolog-syntax",
+                "haskell.haskell"
+            ]
+        }
+    }
+}
